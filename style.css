@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    background: #363f48;
+}
+
+.main {
+    width: fit-content;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:  3px 3px 3px #17181c, -2px -2px 3px #676e7e;
+    padding: 10px;
+}
+
+.btn {
+    display: grid;
+    margin: 10px  15px 0 0;
+}
+
+.b-btn {
+    display: flex;
+}
+
+.button {
+    height: 35px;
+    width: 35px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    box-shadow:  3px 3px 3px #17181c, -2px -2px 3px #676e7e;
+    background: #363f48;
+    margin: 10px 0 0 0;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+#inp {
+    width: 180px;
+    height: 45px;
+    font-size: 2rem;
+    text-align: end;
+    background: #363f48;
+    color: #fff;
+    cursor: default;
+    outline: none;
+}
+.b-last{
+    margin-right: 0;
+}
+
+.equal-btn{
+    height: 170px;
+}
+
+.c-change{
+    color: cyan;
+}
